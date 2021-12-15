@@ -1,10 +1,10 @@
 body {
-    background-color: red;
+    background-color: rgb(85, 4, 58);
 }
 
 
 .a {
     height: 300px;
     width: 200px;
-    background-color: royalblue;
+    background-color: rgb(72, 102, 192);
 }
