@@ -1,9 +1,32 @@
-.backround {
-    position: absolute;
-width: 1440px;
-height: 1024px;
-left: 0px;
-top: 0px;
+/*აქ წერიაქ ბეგრაუნ დის ფერი*/
 
+body {
+background-color: #175476;;
+
+}
+
+/*აქ მიწერაი ცემტრში მყოფი ფოტოს style */
+
+.centri {
+
+  
+
+    position: absolute;
+
+    width: 275px;
+    height: 156px;
+    left: 490px;
+    top: 230px;
+
+    border-radius: 78px;
+
+}
+
+.text {
+position: absolute;
+font-size: 60px;
+color: red;
+left: 490px;
+font-family: "ALKDots", sans-serif;
 
 }
