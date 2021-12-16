@@ -1,3 +1,11 @@
+
+/*აქ მაქ ფონტები */
+@import url("//cdn.web-fonts.ge/fonts/alkdots/css/alkdots.min.css");
+
+
+
+
+
 /*აქ წერიაქ ბეგრაუნ დის ფერი*/
 
 body {
@@ -9,7 +17,6 @@ background-color: #175476;;
 
 .centri {
 
-  
 
     position: absolute;
 
@@ -29,4 +36,15 @@ color: red;
 left: 490px;
 font-family: "ALKDots", sans-serif;
 
+}
+
+
+.name {
+    position: absolute;
+    font-size: 20px;
+    color: #f8eded;
+    left: 510px;
+    top: 290px;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
