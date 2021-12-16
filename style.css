@@ -50,11 +50,11 @@ background-color: #175476;;
 cursor: pointer;
 
     position: absolute;
-    width: 100px;
-    height: 290px;
+    width: 210px;
+    height: 50px;
     left: 339px;
     top: 109px;
-    background: #102179;
+    background:  #4267B2;
     border-radius: 60px;
 
     color: white;
@@ -78,5 +78,5 @@ background-color: red;
 
 #fb {
 background-color: blue;
-
+color: blue;
 }
