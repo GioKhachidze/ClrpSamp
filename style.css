@@ -1,14 +1,9 @@
-body {
-    background-color: rgb(20, 112, 119);
-}
-
-.menu {
-
+.backround {
     position: absolute;
-    width: 1440px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-    
-    background: #0e1b63;
-    box-shadow: 10px 20px 4px rgba(0, 0, 0, 0.1
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+
+}
