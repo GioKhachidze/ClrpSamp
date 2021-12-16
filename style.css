@@ -29,14 +29,8 @@ background-color: #175476;;
 
 }
 
-.text {
-position: absolute;
-font-size: 60px;
-color: red;
-left: 490px;
-font-family: "ALKDots", sans-serif;
 
-}
+
 
 
 .name {
@@ -47,4 +41,42 @@ font-family: "ALKDots", sans-serif;
     top: 290px;
  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*აქ გავაკეთბ ღილაკებს*/
+
+.facebook {
+cursor: pointer;
+
+    position: absolute;
+    width: 100px;
+    height: 290px;
+    left: 339px;
+    top: 109px;
+    background: #102179;
+    border-radius: 60px;
+
+    color: white;
+    font-size: 30px;
+    
+
+
+}
+
+
+
+/*აქ გავეკეთბ ღილაკების ანიმაციებს*/
+
+.facebook:hover  {
+background-color: red;
+
+}
+
+
+/*აქ გავაკეთებ აიქონებს*/
+
+#fb {
+background-color: blue;
+
 }
