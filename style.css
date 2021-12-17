@@ -19,13 +19,11 @@ background-color: #175476;;
 
 
     position: absolute;
-
-    width: 275px;
-    height: 156px;
-    left: 490px;
-    top: 230px;
-
-    border-radius: 78px;
+    width: 360px;
+    height: 623px;
+    left: 0px;
+    top: 0px;
+    
 
 }
 
@@ -37,8 +35,8 @@ background-color: #175476;;
     position: absolute;
     font-size: 20px;
     color: #f8eded;
-    left: 510px;
-    top: 290px;
+    left: 55px;
+    top: 0px;
  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -52,7 +50,7 @@ cursor: pointer;
     position: absolute;
     width: 210px;
     height: 50px;
-    left: 526px;
+    left: 55px;
     top: 150px;
     background:  #4267B2;
     border-radius: 60px;
@@ -74,7 +72,7 @@ cursor: pointer;
     position: absolute;
     width: 210px;
     height: 50px;
-    left: 790px;
+    left: 55px;
     top: 220px;
     background:  #FF0000;
     border-radius: 60px;
