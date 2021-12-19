@@ -1,147 +1,609 @@
+body{
 
-/*აქ მაქ ფონტები */
-@import url("//cdn.web-fonts.ge/fonts/alkdots/css/alkdots.min.css");
-
-
-
-
-
-/*აქ წერიაქ ბეგრაუნ დის ფერი*/
-
-body {
-background-color: #175476;;
-
-}
-
-/*აქ მიწერაი ცემტრში მყოფი ფოტოს style */
-
-.centri {
-
-
+    /* Desktop - 1 */
+ 
+ 
+ position: relative;
+ width: 500px;
+ height: 100px;
+ 
+ background-color: rgb(4, 89, 100);
+ 
+ }
+ 
+ .logo{
+ /* samp-logo-png-6 1 */
+ 
+ 
+ position: absolute;
+ width: 70px;
+ height: 67px;
+ left: 0px;
+ top: 0px;
+ 
+ background: url(samp-logo-png-6.png);
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .owner {
+ /* Rectangle 1 */
+ 
+ 
+ position: absolute;
+ width: 250px;
+ height: 360px;
+ left: 200px;
+ top: 170px;
+ 
+ background: #FFFFFF;
+ border-radius: 15px; }
+ 
+ 
+ 
+    .owner1 {
+       /* Rectangle 3 */
+       
+       
+       position: absolute;
+       width: 250px;
+       height: 360px;
+       left: 1000px;
+       top: 170px;
+       
+       background: #FFFFFF;
+       border-radius: 15px; }
+ 
+ .foto {
+ 
+ 
+ 
+ 
+ position: absolute;
+ width: 250px;
+ height: 360px;
+ left: 0px;
+ 
+ 
+ 
+ }
+ 
+ 
+ .foto1 {
+ 
+ 
+ 
     position: absolute;
-    width: 360px;
-    height: 623px;
+    width: 250px;
+    height: 360px;
     left: 0px;
-    top: 0px;
     
-
-}
-
-
-
-
-
-.name {
-    position: absolute;
-    font-size: 20px;
-    color: #f8eded;
-    left: 55px;
-    top: 0px;
- 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-/*აქ გავაკეთბ ღილაკებს*/
-
-.facebook {
-cursor: pointer;
-
-    position: absolute;
-    width: 210px;
-    height: 50px;
-    left: 55px;
-    top: 150px;
-    background:  #4267B2;
-    border-radius: 60px;
-
-    border: none;
-    outline: none;
     
-
-    color: white;
-    font-size: 30px;
     
-    transition: 0.01s;
-
-
-}
-
-.youtube {
-cursor: pointer;
-    position: absolute;
-    width: 210px;
-    height: 50px;
-    left: 55px;
-    top: 220px;
-    background:  #FF0000;
-    border-radius: 60px;
-
-border: none;
-outline: none;
-
-    color: white;
-    font-size: 30px;
-    
-    transition: 0.01s;
-
-
-}
-
-
-
-/*აქ გავეკეთბ ღილაკების ანიმაციებს*/
-
-.facebook:hover  {
-background-color: rgb(0, 100, 17);;
-width: 200px;
-
-}
-
-.facebook:active {
-background-color: #4267B2;;
-width: 210px;
-
-}
-
-.youtube:hover {
-
-    background-color: rgb(0, 100, 17);
-    width: 200px;
-
-}
-
-
-.youtube:active {
-
-    background-color:   #FF0000;
-width: 210px;
-}
-
-/*აქ გავაკეთებ აიქონებს*/
-
-#fb {
-
-color: blue;
-}
-
-#yt {
  
  
-    color: white;
-}
+ }
+ 
+ .samp1 {
+ position: absolute;
+ width: 1200px;
+ height: 400px;
+ left: 98px;
+ top:170px ;
+ }
+ 
+ 
+ .autor {
+ position: absolute;
+ top: 0px;
+ left:0px ;
+ color: seashell;
 
-
-/*აქ გავაკეთბ ლინკებს*/
-
-a {
-color: white;
-
-}
-
-a {
-    color: white;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .klick {
+ 
+    /* asistenti */
+ 
+ 
+ position: absolute;
+ width: 177px;
+ height: 47px;
+ left: 100px;
+ top: 20px;
+ 
+ 
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ background-color: green;
+ 
+ border: none;
+ border-radius: 40px;
+ cursor: pointer;
+ 
+ }
+ 
+ .klick1 {
+ 
+    /* asistenti */
+ 
+ 
+ position: absolute;
+ width: 177px;
+ height: 47px;
+ left: 300px;
+ top: 20px;
+ 
+ 
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ background-color: green;
+ 
+ border: none;
+ border-radius: 40px;
+ cursor: pointer;
+ 
+ }
+ 
+ 
+ .klick2 {
+ 
+    /* asistenti */
+ 
+ 
+ position: absolute;
+ width: 177px;
+ height: 47px;
+ left: 505px;
+ top: 20px;
+ 
+ 
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ background-color: green;
+ 
+ border: none;
+ border-radius: 40px;
+ cursor: pointer;
+ 
+ }
+ 
+ 
+ .klick3 {
+ 
+    /* asistenti */
+ 
+ 
+ position: absolute;
+ width: 177px;
+ height: 47px;
+ left: 710px;
+ top: 20px;
+ 
+ 
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ background-color: green;
+ 
+ border: none;
+ border-radius: 40px;
+ cursor: pointer;
+ 
+  ;
+ 
+ }
+ 
+ 
+ .klick:hover {
+ background-color: red;
+ width: 170;
+ 
+ }
+ 
+ 
+ .klick1:hover {
+    background-color: red;
+    width: 170;
     
     }
+ 
+ 
+    
+ .klick2:hover {
+    background-color: red;
+    width: 170;
+    
+    }
+ 
+ 
+ 
+    
+ .klick3:hover {
+    background-color: red;
+    width: 170;
+    
+    }
+ 
+ 
+ 
+ 
+    .facebook {
+ position: absolute;
+       font-size: 12px;
+ color: rgb(255, 255, 255);
+ left: 900px;
+ top: 20px;
+ width:4cm ;
+ height: 1.2cm;
+ background-color: rgb(30, 68, 172);
+ border-radius: 40px;
+ outline: none;
+ cursor: pointer;
+ 
+    }
+ 
+    .facebook:hover{
+ width: 3.9cm;
+
+ 
+ 
+    }
+ .facebook:active {
+
+width: 4cm;
+
+ }
+ 
+    .youtube {
+       position: absolute;
+             font-size: 12px;
+       color: rgb(255, 255, 255);
+       left: 1210px;
+       top: 20px;
+        
+       width:4cm ;
+       height: 1.2cm;
+       background-color: rgb(221, 9, 9);
+       border-radius: 40px;
+       outline: none;
+       cursor: pointer;}
+      
+       .youtube:hover {
+ 
+ width: 3.9cm;
+ 
+       }
+
+       .youtube:active {
+           width: 4cm;
+       }
+ 
+ 
+ 
+ 
+  
+ 
+       .ip {
+ position: absolute;
+ top: 50px;
+ left: 500px;
+ font-size: 50px;
+ color: rgb(255, 255, 255);
+ font-family:unset;
+ border-color: red;
+       }
 
 
+       /*აქ იწყება cmd გვერდის კოდები*/
+
+
+       body{
+
+        
+     
+     
+     position: relative;
+     width: 500px;
+     height: 100px;
+     
+background-color: rgb(4, 89, 100);     
+     }
+    
+    
+     .autor {
+        position: absolute;
+        top: 0px;
+    left: 1300px;
+    
+    
+        }
+    
+    .foto1{
+    
+    position: absolute;
+    
+    width: 16cm;
+    height: 10cm;
+    top:190px;
+    left: 750px;
+    }
+    .foto2{
+    
+        position: absolute;
+        
+        width: 16cm;
+        height: 10cm;
+        top:768px;
+        left: 750px;
+        }
+    
+        .foto3{
+    
+            position: absolute;
+            
+            width: 16cm;
+            height: 10cm;
+            top:1349px;
+            left: 750px;
+            }
+    
+            .foto4{
+    
+                position: absolute;
+                
+                width: 16cm;
+                height: 10cm;
+                top:1927px;
+                left: 750px;
+                }
+    
+                .foto5{
+    
+                    position: absolute;
+                    
+                    width: 16cm;
+                    height: 10cm;
+                    top:2507px;
+                    left: 750px;
+                    }
+    
+                    .foto6{
+    
+                        position: absolute;
+                        
+                        width: 16cm;
+                        height: 10cm;
+                        top:3087px;
+                        left: 750px;
+                        }
+    
+                        .foto7{
+    
+                            position: absolute;
+                            
+                            width: 16cm;
+                            height: 10cm;
+                            top:3665px;
+                            left: 750px;
+                            }
+            
+        
+        
+        
+    
+    
+        /*აქ იწყება დონატი*/
+
+        body {
+    
+
+        
+         
+         
+         position: relative;
+         width: 500px;
+         height: 100px;
+         background-color: rgb(4, 89, 100);;
+         
+         }
+    
+    
+    
+         .autor {
+              position: absolute;
+              top: 540px;
+              color: seashell;
+              }
+    
+    
+         .Vip {
+    
+          
+    position: absolute;
+    width: 1117px;
+    height: 500px;
+    left: 64px;
+    top: 30px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    
+         }
+    
+    
+         .Text {
+    position: absolute;
+            font-size: 100px;
+            color: gold;
+            top: -70px;
+            left: 360px;
+    
+    
+    
+         }
+    
+    
+    
+         .donate 
+         {
+    position: absolute;
+    font-size: 36px;
+    top: 100px;
+    
+    
+         }
+    
+    
+         
+    
+         .donate1 
+         {
+    position: absolute;
+    font-size: 36px;
+    top: 146px;
+    
+    
+         }
+    
+    
+         
+         .donate2
+         {
+    position: absolute;
+    font-size: 36px;
+    top: 190px;
+    
+    
+         }
+    
+    
+         .donate3
+         {
+    position: absolute;
+    font-size: 36px;
+    top: 250px;
+    
+    
+         }
+         .donate4
+         {
+    position: absolute;
+    font-size: 36px;
+    top: 300px;
+    
+    
+         }
+         .donate5
+         {
+    position: absolute;
+    font-size: 36px;
+    top: 350px;
+    
+    
+         }
+    
+         .Text1
+         {
+    position: absolute;
+    font-size: 36px;
+    top: 410px;
+    left:  10px ;
+    color: red;
+    
+         }
+    
+         .დაკავშირება {
+    position: absolute;
+           top: 230px;
+           left:600px ;
+    
+    
+           font-family: Girassol;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 20px;
+           line-height: 24px;
+           height: 2cm;
+           width: 5cm;
+           background-color:yellow;
+           
+           border: none;
+           border-radius: 40px;
+           cursor: ponter;
+           
+         }
+    
+         
+    .დაკავშირება:hover {
+         background-color: red;}
+
+
+         /*აქ იწყება წესები*/
+
+
+         body{
+
+         
+         
+         position: relative;
+         width: 500px;
+         height: 100px;
+         background-color: rgb(4, 89, 100);
+         
+         }
+        
+        
+         .RP {
+        
+            position: absolute;
+            width: 1090px;
+            height: 4500px;
+            left: 80px;
+            top: 10px;
+        
+            background: #FFFFFF;
+            border: 50px solid #000000;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 50px
+        
+         }
+        
+         
+         .autor {
+            position: absolute;
+            top: 4550px;
+        left: 10px;
+        
+         }
+
+         /*საივრენი*/
