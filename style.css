@@ -1,18 +1,16 @@
 body{
 
-    /* Desktop - 1 */
+   
  
  
- position: relative;
- width: 500px;
- height: 100px;
+
  
  background-color: rgb(4, 89, 100);
  
  }
  
  .logo{
- /* samp-logo-png-6 1 */
+ 
  
  
  position: absolute;
@@ -21,7 +19,7 @@ body{
  left: 0px;
  top: 0px;
  
- background: url(samp-logo-png-6.png);
+
  
  
  }
@@ -36,7 +34,7 @@ body{
  
  
  .owner {
- /* Rectangle 1 */
+ 
  
  
  position: absolute;
@@ -51,7 +49,7 @@ body{
  
  
     .owner1 {
-       /* Rectangle 3 */
+       
        
        
        position: absolute;
@@ -101,15 +99,7 @@ body{
  top:170px ;
  }
  
- 
- .autor {
- position: absolute;
- top: 0px;
- left:0px ;
- color: seashell;
 
- }
- 
  
  
  
@@ -117,7 +107,7 @@ body{
  
  .klick {
  
-    /* asistenti */
+    
  
  
  position: absolute;
@@ -142,7 +132,7 @@ body{
  
  .klick1 {
  
-    /* asistenti */
+    
  
  
  position: absolute;
@@ -168,7 +158,7 @@ body{
  
  .klick2 {
  
-    /* asistenti */
+    
  
  
  position: absolute;
@@ -194,7 +184,7 @@ body{
  
  .klick3 {
  
-    /* asistenti */
+    
  
  
  position: absolute;
@@ -328,21 +318,10 @@ width: 4cm;
         
      
      
-     position: relative;
-     width: 500px;
-     height: 100px;
-     
 background-color: rgb(4, 89, 100);     
      }
     
-    
-     .autor {
-        position: absolute;
-        top: 0px;
-    left: 1300px;
-    
-    
-        }
+   
     
     .foto1{
     
@@ -425,21 +404,13 @@ background-color: rgb(4, 89, 100);
 
         
          
-         
-         position: relative;
-         width: 500px;
-         height: 100px;
          background-color: rgb(4, 89, 100);;
          
          }
     
     
     
-         .autor {
-              position: absolute;
-              top: 540px;
-              color: seashell;
-              }
+        
     
     
          .Vip {
@@ -586,24 +557,142 @@ background-color: rgb(4, 89, 100);
         
             position: absolute;
             width: 1090px;
-            height: 4500px;
+            height: 4130px;
             left: 80px;
             top: 10px;
         
-            background: #FFFFFF;
-            border: 50px solid #000000;
+            background: #10b3be;
+            border: 10px solid #000000;
             box-sizing: border-box;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 50px
-        
+         
          }
         
          
-         .autor {
-            position: absolute;
-            top: 4550px;
-        left: 10px;
-        
-         }
+         
+         
 
          /*საივრენი*/
+
+         body{
+
+            /* Desktop - 1 */
+         
+         
+         position: relative;
+         width: 500px;
+         height: 100px;
+         background-color: rgb(4, 89, 100);
+        
+         }
+        
+         .sachivrebi {
+        
+        
+            
+        position: absolute;
+        width: 1270px;
+        height: 500px;
+        left: 0px;
+        top: 0px;
+        
+        background: #FFFFFF;
+        border: 5px solid #000000;
+        box-sizing: border-box;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+         }
+        
+         
+        
+         .klick:hover {
+            background-color: red;
+            width: 170;}
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             .autor1 {
+               position: absolute;
+               top: 4200px;
+               left:0px ;
+               color: seashell;
+              
+
+             }
+
+             
+
+
+
+
+             .autor1 {
+               position: absolute;
+               top: 4200px;
+               left:0px ;
+               color: seashell;
+              
+
+             }
+             
+
+
+             .autor {
+               position: absolute;
+               top: 615px;
+               left:0px ;
+               color: seashell;
+              
+
+             }
+             
+
+             .autor2{
+               position: absolute;
+               top: 550px;
+               left:0px ;
+               color: seashell;
+              
+
+             }
+             
+
+
+
+
+             .autor3{
+               position: absolute;
+               top: 4140px;
+               left:0px ;
+               color: seashell;
+              
+
+             }
+             
+
+
+
+
+             .autor1 {
+               position: absolute;
+               top: 4200px;
+               left:0px ;
+               color: seashell;
+              
+
+             }
