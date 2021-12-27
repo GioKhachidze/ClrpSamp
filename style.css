@@ -255,6 +255,7 @@ body{
  border-radius: 40px;
  outline: none;
  cursor: pointer;
+ border: none;
  
     }
  
@@ -282,7 +283,11 @@ width: 4cm;
        background-color: rgb(221, 9, 9);
        border-radius: 40px;
        outline: none;
-       cursor: pointer;}
+       cursor: pointer;
+     outline: none;
+     border: none;
+
+     }
       
        .youtube:hover {
  
